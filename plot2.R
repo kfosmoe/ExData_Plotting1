@@ -16,5 +16,5 @@ subset$datetime <- strptime(subset$timetemp, format = "%Y-%m-%d %H:%M:%S")
 
 #create the png plot 2
 png(file = "plot2.png")
-plot(subset$datetime, subset$Global_active_power, type ="l", xlab = "", ylab = "Global Active Power (kilowatts")
+plot(subset$datetime, subset$Global_active_power, type ="l", xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
